@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colorframe"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="292dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        app:srcCompat="@drawable/login" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="114dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/buttoncorner"
+        android:text="Login"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="145dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textSize="23dp"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="201dp"
+        android:ems="10"
+        android:hint="Login ID"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:textColor="@android:color/black"
+        android:textSize="23sp" />
+
+</RelativeLayout>

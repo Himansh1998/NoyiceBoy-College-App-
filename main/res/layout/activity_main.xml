@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="366dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="322dp"
+            android:background="@drawable/colorframe"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="272dp"
+                android:layout_height="196dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/main" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NoticeBoY"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/view2"
+            android:layout_width="269dp"
+            android:layout_height="100dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:foregroundGravity="center">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/user" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="   LOGIN AS"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_weight="1"
+        android:background="@android:color/background_light"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/BTStudentlogin"
+            android:layout_width="155dp"
+            android:layout_height="47dp"
+            android:background="@drawable/buttoncorner"
+            android:gravity="center"
+            android:text="STUDENT"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/BTfacultylogin"
+            android:layout_width="154dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncorner"
+            android:text="FACULTY"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
